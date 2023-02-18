@@ -9,4 +9,3 @@ class PredictionConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'Prediction'
     model = tf.keras.models.load_model(os.getcwd() + '/my_h5_model.h5') 
-    
